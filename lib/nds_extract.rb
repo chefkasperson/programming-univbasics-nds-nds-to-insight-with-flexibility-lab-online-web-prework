@@ -56,10 +56,6 @@ def movies_with_director_key(name, movies_collection)
   
   i = 0 
   
-  end
-end
-c += 1
-end
 
   
   require 'pp'
