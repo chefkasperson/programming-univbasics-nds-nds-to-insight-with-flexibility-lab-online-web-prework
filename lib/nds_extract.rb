@@ -57,7 +57,7 @@ def movies_with_director_key(name, movies_collection)
   c = 0
   while i < directors_database.length 
     while c < directors_database[i][:movie].length
-    hash = movie_with_director_name(directors_database[i][:name], directors_databasemodirectors_database[i][:movie][c])
+    hash = movie_with_director_name(directors_database[i][:name], directors_database[i][:movie][c])
     updated_movies << hash
     c += 1 
   end
