@@ -54,9 +54,10 @@ def movies_with_director_key(name, movies_collection)
   updated_movies = []
   
   i = 0 
-  
+  c = -
   while i < movies_collection.length  
-    movie_with_director_name(movies_collection[i][])
+    hash = movie_with_director_name(movies_collection[i][:name], movies_collection)
+    updated_movies
     i += 0 
   end
   updated_movies
