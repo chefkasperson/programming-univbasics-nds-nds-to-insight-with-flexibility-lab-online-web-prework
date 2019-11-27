@@ -67,7 +67,7 @@ end
 
   
   require 'pp'
-  pp movies_collection
+  pp updated_movies
   
 end
 
