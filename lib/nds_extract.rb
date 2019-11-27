@@ -54,12 +54,15 @@ def movies_with_director_key(name, movies_collection)
   updated_movies = []
   
   i = 0 
-  c = -
-  while i < movies_collection.length  
-    hash = movie_with_director_name(movies_collection[i][:name], movies_collection)
-    updated_movies
-    i += 0 
+  c = 0
+  while i < movies_collection.length 
+    while c < movies_collection[i][:movie].length
+    hash = movie_with_director_name(movies_collection[i][:name], movies_collection[i][:movie][c])
+    updated_movies << hash
+    c += 1 
   end
+  i += 1
+end
   updated_movies
   puts updated_movies
     
