@@ -67,8 +67,8 @@ end
   puts updated_movies
     
   
-  # require 'pp'
-  # pp movies_collection
+  require 'pp'
+  pp movies_collection
   
 end
 
