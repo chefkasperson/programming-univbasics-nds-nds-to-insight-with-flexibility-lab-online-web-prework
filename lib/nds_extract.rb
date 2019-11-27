@@ -51,15 +51,17 @@ def movies_with_director_key(name, movies_collection)
   
   ## first I want to loop through movie collection to reorganize add director's name to hash
   ##add each movie to the hash
-  updated_movies = []
-  hash = {}
-  
+  array = []
   i = 0 
-  
+  while i < movies_collection.length
+    
+    i += 
+  end
+    
 
   
   require 'pp'
-  pp movies_collection
+  pp 
   
 end
 
